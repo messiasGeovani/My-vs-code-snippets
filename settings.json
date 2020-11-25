@@ -1,0 +1,48 @@
+{
+  "workbench.colorTheme": "folabelle",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0,
+  "editor.suggestSelection": "first",
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "editor.fontSize": 17,
+  "editor.fontFamily": "firaCode",
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "editor.codeActionsOnSave": {
+    "eslint.autoFixOnSave": true,
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "terminal.integrated.fontFamily": "monospace"
+}
