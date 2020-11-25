@@ -1,3 +1,3 @@
 # My-vs-code-snippets
 
-> my default settings.json for vs code configurations
+> my default vs code configurations
