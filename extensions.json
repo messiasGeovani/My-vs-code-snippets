@@ -1,0 +1,20 @@
+{
+  extensions: [
+    "vscode-ext-color-highlight",
+    "Docker",
+    "DotENV",
+    "EditorConfig for VS Code",
+    "ESLint",
+    "folabelle",
+    "GraphQL",
+    "Live Server",
+    "Lorem ipsum",
+    "Markdown Preview Enhanced",
+    "Material Icon Theme",
+    "Prettier - Code formatter",
+    "Remote - Containers",
+    "Vetur",
+    "vscode-styled-components",
+    "vue"
+  ]
+}
