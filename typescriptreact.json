@@ -1,0 +1,27 @@
+  // paste this inside the current object
+  
+  "React component": {
+    "prefix": "_component",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export default function Component(): JSX.Element {",
+      "  return <div>Component</div>",
+      "}",
+      ""
+    ],
+    "description": "Creates a pre structure for web components with react js."
+  },
+  "React native component": {
+    "prefix": "_component/native",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native;",
+      "",
+      "export default function Component(): JSX.Element {",
+      "  return <View>Component</View>;",
+      "}",
+      ""
+    ],
+    "description": "Creates a pre structure for mobile components with react native."
+  }
