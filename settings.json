@@ -1,12 +1,12 @@
 {
   "workbench.colorTheme": "folabelle",
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 0,
   "editor.suggestSelection": "first",
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
-  "editor.fontSize": 17,
-  "editor.fontFamily": "firaCode",
+  "stylelint.autoFixOnSave": true,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code",
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
   "emmet.syntaxProfiles": {
@@ -44,5 +44,34 @@
     "typescript",
     "typescriptreact"
   ],
-  "terminal.integrated.fontFamily": "monospace"
+  "terminal.integrated.fontFamily": "monospace",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+
+  "material-icon-theme.files.associations": {
+    "*.controller.ts": "nest-controller",
+    "*.controller.js": "nest-controller",
+    // "*.module.ts": "nest-module",
+    // "*.module.js": "nest-module",
+    // "*.service.ts": "nest-service",
+    // "*.service.js": "nest-service",
+    "*.middleware.ts": "nest-middleware",
+    "*.filter.ts": "nest-filter",
+    "*.pipe.ts": "nest-pipe",
+    "*.gateway.ts": "nest-gateway",
+    "*.decorator.ts": "nest-decorator",
+    "*.guard.ts": "nest-guard",
+    "*.resolver.ts": "graphql",
+    "*.input.ts": "graphql"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
 }
